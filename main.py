@@ -18,8 +18,8 @@ def main():
     results(passed) #Even if they don't take the final, they would pass
   else: #89% and under
     prepare(grade)
-
-main()
-if (again != "N" or again != "n"):
   again()
+
+if __name__ == "__main__":
+  main()
   
