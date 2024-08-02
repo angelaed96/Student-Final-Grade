@@ -21,7 +21,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a python script
-        run: python .github/Student-Final-Grade/main.py
+        run: python .github/main.py
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
