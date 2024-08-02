@@ -5,11 +5,13 @@ def prepare(grade):
   passing = 70 - grade #passing grade is 70%
   if passing > 0:
     print("You need " + str(passing) + "% more in order pass the class with 70%.")
+  if grade < 63:
+    print("Your only chance to pass is getting a full score on the final and some extra credit.\n Talk to your teacher before it's too late!")
     
   choice = input("\nDid you prepare for the final?(Y/N): ")
   if choice == "Y" or choice == "y":
     print("Great!")
-    if grade <= 70:
+    if grade <= 75:
       print("Let's make sure you're fully prepared.")
       study(grade)
     else:
