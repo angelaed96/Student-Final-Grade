@@ -18,7 +18,6 @@ def goAgain():
     
 def main():
   percent = input("What is your current grade percentage?: ")
-
   if not percent.isnumeric():
     print("Invalid input. Please enter a whole number without the percent sign.")
     main()
