@@ -41,6 +41,6 @@ jobs:
       uses: jannekem/run-python-script-action@v1.7
       with:
           # Python script
-          script: main.py
+          script: python .github/main.py
           
   
