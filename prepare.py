@@ -2,7 +2,7 @@ from study import study
 from calculation import *
 
 def prepare(grade):
-  passing = 70 - grade #passing grade is 70%
+  passing = round(70 - grade) #passing grade is 70%
   if passing > 0:
     print("You need " + str(passing) + "% more in order pass the class with 70%.")
   if grade < 63:
