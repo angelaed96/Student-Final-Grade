@@ -4,9 +4,7 @@ def final(grade, points):
   total = 200 #Max points on the final
   extra = points * 15 #Points came from studying. Studying will give a max of 15 extra points
   chance = round(total * ((grade+extra)/100))
-  print(extra)
-  print(grade)
-  print(chance)
+  
   if (chance < 0):#student has a grade of 0 for some reason
     chance = 0
   print("\nOut of 200 points, your final exam score could be " + str(chance))#Esentially, the percentage is based on their academic habits. Their chance is the total of the final times their academic habits.
